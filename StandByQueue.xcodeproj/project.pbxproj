@@ -14,6 +14,10 @@
 		BAACBADF2411E10300B908A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAACBADD2411E10300B908A1 /* Main.storyboard */; };
 		BAACBAEB2411E10300B908A1 /* StandByQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACBAEA2411E10300B908A1 /* StandByQueueTests.swift */; };
 		BAACBAF62411E10300B908A1 /* StandByQueueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACBAF52411E10300B908A1 /* StandByQueueUITests.swift */; };
+		BAACBB042411E15E00B908A1 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACBB032411E15E00B908A1 /* QueueView.swift */; };
+		BAACBB062411E1E100B908A1 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACBB052411E1E100B908A1 /* TicketView.swift */; };
+		BAACBB082411E20F00B908A1 /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACBB072411E20F00B908A1 /* PropertyView.swift */; };
+		BAACBB0A2411E29200B908A1 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACBB092411E29200B908A1 /* Ticket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		BAACBAF12411E10300B908A1 /* StandByQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandByQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAACBAF52411E10300B908A1 /* StandByQueueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandByQueueUITests.swift; sourceTree = "<group>"; };
 		BAACBAF72411E10300B908A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAACBB032411E15E00B908A1 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		BAACBB052411E1E100B908A1 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		BAACBB072411E20F00B908A1 /* PropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
+		BAACBB092411E29200B908A1 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 			children = (
 				BAACBAD42411E0FC00B908A1 /* AppDelegate.swift */,
 				BAACBAD62411E0FC00B908A1 /* ContentView.swift */,
+				BAACBB032411E15E00B908A1 /* QueueView.swift */,
+				BAACBB052411E1E100B908A1 /* TicketView.swift */,
+				BAACBB072411E20F00B908A1 /* PropertyView.swift */,
+				BAACBB092411E29200B908A1 /* Ticket.swift */,
 				BAACBAD82411E10300B908A1 /* Assets.xcassets */,
 				BAACBADD2411E10300B908A1 /* Main.storyboard */,
 				BAACBAE02411E10300B908A1 /* Info.plist */,
@@ -267,6 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAACBAD72411E0FC00B908A1 /* ContentView.swift in Sources */,
+				BAACBB0A2411E29200B908A1 /* Ticket.swift in Sources */,
+				BAACBB082411E20F00B908A1 /* PropertyView.swift in Sources */,
+				BAACBB042411E15E00B908A1 /* QueueView.swift in Sources */,
+				BAACBB062411E1E100B908A1 /* TicketView.swift in Sources */,
 				BAACBAD52411E0FC00B908A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

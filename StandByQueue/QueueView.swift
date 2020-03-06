@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  QueueView.swift
 //  StandByQueue
 //
 //  Created by Stephen Nary on 3/5/20.
@@ -8,15 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct QueueView: View {
     var body: some View {
-        QueueView()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-
-struct ContentView_Previews: PreviewProvider {
+struct QueueView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        QueueView()
     }
 }
