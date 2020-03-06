@@ -11,8 +11,10 @@ import SwiftUI
 struct QueueView: View {
     let queue: [Ticket]
     var body: some View {
-        List(queue) { ticket in
-            TicketView(ticket: ticket)
+        ScrollView() {
+            ForEach(queue) { ticket in
+                TicketView(ticket: ticket).padding(5)
+            }.frame(minWidth: 200, maxWidth: 300)
         }
     }
 }

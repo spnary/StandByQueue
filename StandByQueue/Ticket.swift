@@ -61,5 +61,5 @@ class Ticket: Identifiable, Codable {
     
 }
 
-let testTicket = Ticket(requester: "Liz Lemon", description: "Write a Skit", notes: "Need a new skit for Friday's show")
+let testTicket = Ticket(requester: "Liz Lemon", description: "Write a Skit", notes: "Need a new skit for Friday's show as soon as possible. Jenna refuses to come out of her dressing room.")
 let testQueue = [testTicket, testTicket, testTicket]

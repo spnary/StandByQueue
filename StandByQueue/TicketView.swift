@@ -16,7 +16,10 @@ struct TicketView: View {
             PropertyView(propertyName: "Request Date", propertyValue: ticket.requestDateString)
             PropertyView(propertyName: "Description", propertyValue: ticket.description)
             PropertyView(propertyName: "Notes", propertyValue: ticket.notes)
-        }
+            }
+        .background(Color("ticketBackground"))
+        .cornerRadius(5.0)
+        .frame(minWidth: 200, maxWidth: 300, maxHeight: .infinity)
     }
 }
 
