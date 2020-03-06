@@ -9,14 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let queue: [Ticket]
     var body: some View {
-        QueueView()
+        QueueView(queue: queue)
     }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(queue: testQueue)
     }
 }

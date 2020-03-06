@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Ticket {
+class Ticket: Identifiable {
+    let id: UUID
     let requester: String
     let requestDate: Date
     let description: String
@@ -21,6 +22,7 @@ struct Ticket {
     }
     
     init(requester: String = "", requestDate: Date = Date(), description: String = "", notes: String = "") {
+        id = UUID()
         self.requester = requester
         self.requestDate = requestDate
         self.description = description
@@ -33,3 +35,4 @@ struct Ticket {
 }
 
 let testTicket = Ticket(requester: "Liz Lemon", description: "Write a Skit", notes: "Need a new skit for Friday's show")
+let testQueue = [testTicket, testTicket, testTicket]

@@ -9,13 +9,16 @@
 import SwiftUI
 
 struct QueueView: View {
+    let queue: [Ticket]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(queue) { ticket in
+            TicketView(ticket: ticket)
+        }
     }
 }
 
 struct QueueView_Previews: PreviewProvider {
     static var previews: some View {
-        QueueView()
+        QueueView(queue: testQueue)
     }
 }
